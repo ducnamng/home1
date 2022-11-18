@@ -1,0 +1,78 @@
+.background_contact-us {
+  background-image: url(../images/background/Background\ Bubble\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.contact_us {
+ 
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+  margin-top: 144px;
+  display: flex;
+  align-items: center;
+}
+
+.contact_us-img {
+  width: 50%;
+}
+
+.contact_us-text {
+  margin-bottom: 44px;
+}
+
+.contact_us-text > h2 {
+  color: #FF64AE;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.contact_us-text > h1 {
+  color: #091156;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 125%;
+}
+
+.contact_us-text > p {
+  color:#8B8B8B;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+
+.contact_us-form {
+  width: 50%;
+}
+
+.input-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px
+}
+
+.input-name > input {
+  width: 50%;
+}
+
+.input_contact-us {
+  width: 100%;
+  padding: 20px 0;
+  padding-left: 24px;
+  border-radius: 15px;
+  border: 1px solid #D9DDFE;
+  box-sizing: border-box;
+  letter-spacing: 1.6px;
+  color: #c5c5c5;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+
+.size_bnt-contact_us {
+  padding: 16px 38px;
+}
+
+

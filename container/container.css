@@ -1,0 +1,260 @@
+@media only screen and (max-width: 992px) {
+  #header {
+   
+    max-width: 960px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px
+  }
+
+  .logo_header {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  
+}
+
+
+
+/* medium >=768px */
+@media only screen and (max-width: 768px) {
+  #header {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .content_slider {
+    flex-direction: column-reverse;
+  }
+
+  .content_slider-text {
+    text-align: center;
+    padding: 0;
+  }
+
+  #main_slider {
+    margin-bottom: 0;
+  }
+
+  .menu_btn {
+    display: block;
+    cursor: pointer;
+    top: 30px;
+    z-index: 2;
+  }
+
+  .menu_btn:hover {
+    opacity: 0.5;
+  }
+
+  .menu > ul.main_menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        width: 45%;
+        height: 100%;
+        background-color: rgb(234, 234, 234);
+        padding: 20px;
+        transition: transform 0.5s ease-in-out;
+        z-index: 1;
+  }
+
+  .menu > ul.main_menu.show {
+    transform: translate(0);
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .services_box {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .text_img {
+    text-align: center;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .about_us {
+    text-align: center;
+  }
+  
+  .about_us-text {
+    width: 100%;
+  }
+
+  .about_us-video {
+    width: 100%;
+  }
+
+  .buttons-about_us {
+    justify-content: center;
+  }
+
+  .contact_us {
+    max-width: 720px;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: -50px;
+  }
+
+  .contact_us-img {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .contact_us-form {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .container_footer {
+    padding-top: 66px !important;
+    justify-content: space-between !important;
+  }
+
+  .information_list > img {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer_list {
+    gap: 15px !important;
+    padding-left: 0 !important;
+    justify-content: flex-end !important;
+  }
+
+  .end_page {
+    max-width: 720px !important;
+    margin: 0 auto !important;
+    margin-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px !important;
+    padding-right: 16px !important;
+  }
+
+  .text-end_page > p {
+    font-size: 12px;
+  }
+
+  .btn-tothetop {
+    bottom: 100px !important;
+  }
+
+}
+
+
+/* small >= 540px */
+@media only screen and (max-width: 576px) {
+  #header {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .main_slider {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .content_slider-text {
+    width: 100%;
+  }
+
+  .services {
+    max-width: 540px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .services_box {
+    width: 90%;
+  }
+
+  .about_us {
+    max-width: 540px;
+    margin-top: 100px !important;
+    margin: 0 auto;
+  }
+
+  .team_list {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .teams_box {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .professional_team {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+ .professional_team-mid {
+  width: 90%;
+  margin: 0 auto;
+ }
+
+  .professional_team-text > p {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px 0 0 ;
+  }
+
+ 
+
+  #background_footer {
+    background-image: none !important;
+    background-color: #172176;
+    margin-top: 40px;
+  }
+
+  .container_footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .information_list {
+    width: 100% !important;
+  }
+
+  .footer_list {
+    flex-direction: column;
+  }
+
+  .contact_us {
+    max-width: 540px  !important;
+    margin: 0 auto;
+    margin-top: 60px !important;
+  }
+
+  .contact_us-img > img {
+    max-width: 100%;
+
+  }
+
+  .end_page {
+    flex-direction: column;
+    padding-bottom: 30px !important;
+    text-align: center;
+  }
+
+  .text-end_page > p {
+    padding: 10px 0 0 0;
+  }
+
+  .icons-end_page {
+    justify-content: center;
+  }
+
+  .btn-tothetop {
+    bottom: 160px !important;
+  }
+}

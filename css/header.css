@@ -1,0 +1,135 @@
+header {
+  background-image: url(/images/background/Slide\ Background.png);
+  width: 100%;
+  height: 100%;
+  background-size: 88%;
+  background-repeat: no-repeat;
+}
+
+.menu_btn {
+  position: absolute;
+  right: 25px;
+  font-weight: bold;
+  display: none;
+}
+
+.menu_btn > span {
+  font-size: 40px;
+}
+
+/* menu */
+#header {
+  padding:0 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 63px;
+}
+
+.logo_header {
+  line-height: 63px; 
+  width: 263px; 
+  height: 63px
+}
+
+.menu > ul {
+  display: flex;
+  gap: 45px;
+  line-height: 63px;
+}
+
+.menu_list {
+  color: #8B8B8B;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+
+#menu_list-home {
+  color: #414880;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+
+.size_button-header {
+  width: 158px;
+  height: 52px;
+}
+/* close menu */
+
+/* main slider */
+#main_slider {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.content_slider {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 159px;
+}
+
+.content_slider-text {
+  padding-left: 39px;
+  width: 50%;
+}
+
+.content_slider-text > h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #091156;
+  line-height: 125%;
+  margin-bottom: 10px;
+}
+
+.content_slider-text > p {
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  color: #091156;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+
+.content_slider-image > img{
+  width: 100%;
+}
+
+.size_button-slider {
+  width: 200px;
+  height: 58px;
+  margin-bottom: 10px
+}
+
+.slide_button {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.rectangle_mid {
+  width: 25px;
+  height: 8px;
+  background-color: #414880;
+  border-radius: 30px;
+}
+
+.rectangle_left {
+  width: 15px;
+  height: 3px;
+  background-color: #EEEEEE;
+  border-radius: 30px;
+}
+
+.rectangle_right {
+  width: 15px;
+  height: 3px;
+  background-color: #EEEEEE;
+  border-radius: 30px;
+}
+

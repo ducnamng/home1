@@ -1,0 +1,78 @@
+.background-about_us {
+  background-image: url(../images/background/Background\ Bubble.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position:bottom right;
+}
+
+.about_us {
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+  margin-top: 135px ;
+}
+
+.about_us > h2 {
+  color: #FF64AE;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.text_img {
+  display: flex;
+  margin-top: 12px;
+  gap: 40px;
+}
+
+.about_us-text {
+  width: 50%;
+}
+
+.about_us-text > h1 {
+  color: #091156;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.about_us-text > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  color: #8B8B8B;
+  margin-top: 15px;
+  margin-bottom: 65px;
+}
+
+.about_us-video {
+  width: 50%;
+}
+
+#my_video {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.size_button-about_us {
+  width: 200px;
+  height: 58px;
+}
+
+.watch_video {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.watch_video > p {
+  color: #8B8B8B;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
+.buttons-about_us {
+  display: flex;
+  gap: 44px;
+}

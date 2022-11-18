@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  margin-top: 82px;
+  gap: 56px;
+
+}
+
+.services_box {
+  text-align: center;
+  width: 33.3333%;
+  height: 458px;
+  box-shadow: rgba(228, 231, 255, 0.56) 0px 22px 70px 4px;;
+  border-radius: 30px;
+}
+
+.services_box-image {
+  margin: 59px 0;
+}
+
+.services_box-text > h1 {
+  color: #091156;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.services_box-text > p {
+  color: #8B8B8B;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.6px;
+  margin: 20px 24px 0;
+}
